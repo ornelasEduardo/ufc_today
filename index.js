@@ -321,4 +321,5 @@ function getTitleHolders() {
     thisIsKhabib["first_name"] + " " + thisIsKhabib["last_name"];
 
   //TODO: Set DOM to khabib's held belt under here.
+  document.getElementById("belt-held").innerText = thisIsKhabib["weight_class"];
 }
