@@ -17726,5 +17726,11 @@ function getConor() {
 
   var conor = allFighters.filter(
     fighter => fighter["first_name"].toLowerCase() === "conor" && fighter["last_name"].toLowerCase() === "mcgregor"
-  );
+  )[0];
+
+  document.getElementById("contender").innerText =
+  conor["first_name"] + " " + conor["last_name"];
+
+document.getElementById("fighting-for").innerText = conor["weight_class"];
+document.getElementById("image-contender").src = conor["belt_thumbnail"];
 }
