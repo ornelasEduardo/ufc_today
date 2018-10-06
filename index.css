@@ -1,7 +1,11 @@
-#champion  {
-    color: white;
+#champion {
+  color: white;
 }
 
-#belt-held  {
-    color: white;
+#belt-held {
+  color: white;
+}
+
+.retro-text {
+  font-family: "Press Start 2P", cursive;
 }
